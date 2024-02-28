@@ -24,8 +24,8 @@ re_requirement = re.compile(r"\s*([-_a-zA-Z0-9]+)\s*(?:==\s*([-+_.a-zA-Z0-9]+))?
 
 fooocus_name = 'Fooocus'
 
-fooocus_gitee_repo = 'https://gitee.com/mirrors/fooocus'
-fooocus_github_repo = 'https://github.com/lllyasviel/Fooocus'
+fooocus_gitee_repo = 'https://github.com/aryan1107/Fooocus'
+fooocus_github_repo = 'https://github.com/aryan1107/Fooocus'
 
 modules_path = os.path.dirname(os.path.realpath(__file__))
 script_path = modules_path

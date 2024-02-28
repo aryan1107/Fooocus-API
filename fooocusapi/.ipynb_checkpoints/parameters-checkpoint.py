@@ -8,12 +8,12 @@ default_inpaint_engine_version = 'v2.6'
 default_styles = [
         'Fooocus V2', 'Fooocus Enhance', 'Fooocus Sharp'
     ]
-default_base_model_name = 'Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors'
+default_base_model_name = 'juggernautXL_v8Rundiffusion.safetensors'
 default_refiner_model_name = 'None'
 default_refiner_switch = 0.5
-default_loras = [['sd_xl_offset_example-lora_1.0.safetensors', 0.25]]
+default_loras = [['SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors', 0.25]]
 default_cfg_scale = 3.0
-default_prompt_negative = 'None'
+default_prompt_negative = 'unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label'
 default_aspect_ratio = '1152*896'
 default_sampler = 'dpmpp_2m_sde_gpu'
 default_scheduler = 'karras'
